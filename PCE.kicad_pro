@@ -485,7 +485,27 @@
   },
   "sheets": [
     [
-      "c1cb2bef-9eae-4ec7-9810-1daf2061cc41",
+      "1d91d06a-381a-4a70-bfc1-2abf4d159a91",
+      "CPU"
+    ],
+    [
+      "ed9120da-14d8-40be-9026-fb246d72bf2f",
+      "VDC"
+    ],
+    [
+      "c78d7e8a-3e65-46f4-91f4-96eb31925bea",
+      "Video"
+    ],
+    [
+      "ba362b1f-3cb7-4861-9385-2b05dca17551",
+      "Power"
+    ],
+    [
+      "99dc3156-542f-4db3-aeb5-d38a9dd48b1b",
+      "Connectors"
+    ],
+    [
+      "c1c718c6-a427-431e-a18b-e46f94ae8e09",
       ""
     ]
   ],
