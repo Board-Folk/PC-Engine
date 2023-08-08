@@ -3262,7 +3262,7 @@
   (symbol (lib_id "Device:R") (at 135.89 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1bc16ed4-fbd7-43a9-9391-b4c8105757c5)
-    (property "Reference" "R107" (at 138.43 73.025 0)
+    (property "Reference" "RX107" (at 138.43 73.025 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 138.43 75.565 0)
@@ -3279,7 +3279,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R107") (unit 1)
+          (reference "RX107") (unit 1)
         )
       )
     )
@@ -3393,7 +3393,7 @@
   (symbol (lib_id "Device:R") (at 167.64 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3238c7be-317c-4eb1-95ff-1f66eaa24422)
-    (property "Reference" "R112" (at 170.18 64.135 0)
+    (property "Reference" "RX112" (at 170.18 64.135 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 170.18 66.675 0)
@@ -3410,7 +3410,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R112") (unit 1)
+          (reference "RX112") (unit 1)
         )
       )
     )
@@ -3727,7 +3727,7 @@
   (symbol (lib_id "Device:R") (at 127 64.77 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 657cf7e4-403d-4237-b887-705343e4fece)
-    (property "Reference" "R109" (at 129.54 64.135 0)
+    (property "Reference" "RX109" (at 129.54 64.135 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "4.7K" (at 129.54 66.675 0)
@@ -3744,7 +3744,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R109") (unit 1)
+          (reference "RX109") (unit 1)
         )
       )
     )
@@ -3855,7 +3855,7 @@
   (symbol (lib_id "Device:R") (at 144.78 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88b8d564-a350-4cdb-a4ea-51e7064a9a01)
-    (property "Reference" "R108" (at 147.32 81.915 0)
+    (property "Reference" "RX108" (at 147.32 81.915 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 147.32 84.455 0)
@@ -3872,7 +3872,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R108") (unit 1)
+          (reference "RX108") (unit 1)
         )
       )
     )
@@ -3959,7 +3959,7 @@
   (symbol (lib_id "Amplifier_Operational:LM358") (at 148.59 198.12 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9fbbc8f4-3613-4dcb-b5cc-2213d5d37789)
-    (property "Reference" "IC106" (at 148.59 189.23 0)
+    (property "Reference" "ICX106" (at 148.59 189.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "UPC358" (at 148.59 191.77 0)
@@ -3982,7 +3982,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "IC106") (unit 1)
+          (reference "ICX106") (unit 1)
         )
       )
     )
@@ -4331,7 +4331,7 @@
   (symbol (lib_id "Device:R") (at 115.57 186.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid df02043d-87a4-4707-b852-518b6c9b1997)
-    (property "Reference" "R111" (at 118.11 186.055 0)
+    (property "Reference" "RX111" (at 118.11 186.055 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4.7K" (at 118.11 188.595 0)
@@ -4348,7 +4348,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "R111") (unit 1)
+          (reference "RX111") (unit 1)
         )
       )
     )
