@@ -3804,13 +3804,13 @@
   (symbol (lib_id "Device:C_Polarized") (at 128.27 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 72a31f40-dab5-452f-b00f-37541b695004)
-    (property "Reference" "C113" (at 132.08 204.216 0)
+    (property "Reference" "CX113" (at 132.08 204.216 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10uF 16V" (at 132.08 206.756 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 129.2352 209.55 0)
+    (property "Footprint" "A-PCENGINE:Elec_P5.00mm" (at 129.2352 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 205.74 0)
@@ -3821,7 +3821,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "C113") (unit 1)
+          (reference "CX113") (unit 1)
         )
       )
     )
@@ -4210,7 +4210,7 @@
     (property "Value" "22uF 16V" (at 115.57 116.586 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 112.7252 119.38 0)
+    (property "Footprint" "A-PCENGINE:Elec_P5.00mm" (at 112.7252 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 115.57 0)
@@ -4357,7 +4357,7 @@
   (symbol (lib_id "Device:C") (at 306.07 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e7da5092-90a4-4e39-ad90-5e829dcb6aba)
-    (property "Reference" "C109" (at 309.88 107.315 0)
+    (property "Reference" "CX109" (at 309.88 107.315 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "0.1uF" (at 309.88 109.855 0)
@@ -4374,7 +4374,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/1d91d06a-381a-4a70-bfc1-2abf4d159a91"
-          (reference "C109") (unit 1)
+          (reference "CX109") (unit 1)
         )
       )
     )

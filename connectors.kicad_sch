@@ -4855,7 +4855,7 @@
   (symbol (lib_id "Connector_Generic:Conn_02x19_Odd_Even") (at 58.42 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f8cd340-119f-49a5-9953-74e29469b317)
-    (property "Reference" "CN102" (at 59.69 147.32 0)
+    (property "Reference" "CY102" (at 59.69 147.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "HuCARD" (at 59.69 149.86 0)
@@ -4908,7 +4908,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/99dc3156-542f-4db3-aeb5-d38a9dd48b1b"
-          (reference "CN102") (unit 1)
+          (reference "CY102") (unit 1)
         )
       )
     )
@@ -5117,13 +5117,13 @@
   (symbol (lib_id "PC-Engine:Conn_03x23") (at 190.5 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 57e8f1ef-510c-4ae9-b46d-24e3d2856c9b)
-    (property "Reference" "CX1" (at 190.5 229.87 0)
+    (property "Reference" "CN102" (at 190.5 229.87 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "EXPANSION" (at 190.5 232.41 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 160.02 196.85 0)
+    (property "Footprint" "A-PCENGINE:CN102-2.54mm" (at 160.02 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 203.2 0)
@@ -5201,7 +5201,7 @@
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/99dc3156-542f-4db3-aeb5-d38a9dd48b1b"
-          (reference "CX1") (unit 1)
+          (reference "CN102") (unit 1)
         )
       )
     )
@@ -5497,7 +5497,7 @@
   )
 
   (symbol (lib_id "PC-Engine:Conn_03x23") (at 189.23 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board no) (dnp no) (fields_autoplaced)
     (uuid bd4d348e-c61e-4ca5-a898-44e80899e1ae)
     (property "Reference" "CX103" (at 189.23 114.3 0)
       (effects (font (size 1.27 1.27)))
@@ -5509,6 +5509,9 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 189.23 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Enable" "0" (at 189.23 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "a1" (uuid 522cd199-46c9-49d9-8d69-18e45470a425))
