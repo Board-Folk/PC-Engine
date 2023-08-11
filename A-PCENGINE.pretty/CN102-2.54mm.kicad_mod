@@ -46,7 +46,7 @@
   (pad "b2" thru_hole roundrect (at -25.5 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 401efcd8-f60d-47e3-b0e0-96e1677bfb8c))
   (pad "b3" thru_hole roundrect (at -22.96 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp da61ad55-4938-4662-a861-caccb7c18838))
   (pad "b4" thru_hole roundrect (at -20.42 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 5a5d47c8-f18f-4873-9069-d0a50ea443e2))
-  (pad "b4" thru_hole roundrect (at -17.88 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c7267e46-1d67-48f1-9aea-aca45d5a0c84))
+  (pad "b5" thru_hole roundrect (at -17.88 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c7267e46-1d67-48f1-9aea-aca45d5a0c84))
   (pad "b6" thru_hole roundrect (at -15.34 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 4638ed82-7114-4f85-8e51-b240c7532acf))
   (pad "b7" thru_hole roundrect (at -12.8 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 8651ba26-2479-4cfb-8614-8b49012c3b85))
   (pad "b8" thru_hole roundrect (at -10.26 -0.01) (size 1.5 1.5) (drill 0.9) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 4fcf005e-8564-4ad6-9800-5e9a8f84180a))
