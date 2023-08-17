@@ -4,6 +4,14 @@
 
   (paper "A3")
 
+  (title_block
+    (title "PC Engine Video Encoding")
+    (date "2023-08-17")
+    (rev "1.0")
+    (comment 1 "Differences reverse engineered from original PWD-623A board")
+    (comment 2 "Adapted from existing TurboGrafx-16 schematics by Cosam")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM358" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at 0 5.08 0)
@@ -3255,8 +3263,8 @@
     (pin "1" (uuid 58a36dcc-ff91-4395-a761-c3ef5ecdc682))
     (pin "2" (uuid 1da223c9-6943-4228-8bcd-572d3851282a))
     (pin "3" (uuid 77549d90-c67a-4b8c-95f6-3b111233330c))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb7b))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb7b))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb80))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb80))
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
@@ -3736,7 +3744,7 @@
     (property "Reference" "C107" (at 341.63 95.25 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "0.1uF L" (at 341.63 100.33 0)
+    (property "Value" "0.1uF" (at 341.63 100.33 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "A-PCENGINE:SMD_1206" (at 338.1248 93.98 0)
@@ -3814,12 +3822,12 @@
   )
 
   (symbol (lib_id "PC-Engine:Hu6260") (at 189.23 102.87 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 707528bb-000a-4619-8d6e-3195aea7fd6a)
-    (property "Reference" "IC103" (at 189.23 39.37 0)
+    (property "Reference" "IC103" (at 189.23 40.64 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "HUC6260" (at 189.23 41.91 0)
+    (property "Value" "HUC6260" (at 189.23 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "A-PCENGINE:HUC62xx" (at 189.23 95.25 0)
@@ -4110,7 +4118,7 @@
     (property "Reference" "R103" (at 304.8 130.175 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "6.8K" (at 304.8 132.715 0)
+    (property "Value" "680" (at 304.8 132.715 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "A-PCENGINE:SMD_1206" (at 309.118 130.81 90)
