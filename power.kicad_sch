@@ -1164,7 +1164,6 @@
   )
 
   (no_connect (at 233.68 129.54) (uuid 23ca75a5-cea7-4190-afad-fcbb69a8734c))
-  (no_connect (at 208.28 55.88) (uuid 50c472ea-ef9f-448e-82ac-9f044050fbc5))
 
   (bus_entry (at 118.11 158.75) (size -2.54 2.54)
     (stroke (width 0) (type default))
@@ -2173,7 +2172,7 @@
     (property "Value" "21.4772 MHz" (at 255.27 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Oscillator:Oscillator_DIP-14" (at 252.73 138.43 0)
+    (property "Footprint" "A-PCENGINE:Oscillator" (at 252.73 138.43 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://cdn-reichelt.de/documents/datenblatt/B400/OSZI.pdf" (at 238.76 129.54 0)
@@ -2819,7 +2818,7 @@
     (property "Value" "~" (at 242.57 109.22 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "A-PCENGINE:L-5.00mm" (at 241.3 109.22 0)
+    (property "Footprint" "A-PCENGINE:L-5.00mm_Small_Silk" (at 241.3 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 241.3 109.22 0)
