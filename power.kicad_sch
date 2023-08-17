@@ -2441,7 +2441,7 @@
     (property "Value" "~" (at 242.57 161.29 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "A-PCENGINE:L-5.00mm" (at 241.3 161.29 0)
+    (property "Footprint" "A-PCENGINE:L-5.00mm_Small_Silk" (at 241.3 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 241.3 161.29 0)
