@@ -13,6 +13,8 @@
       (effects (font (size 1.25 1.4) (thickness 0.2)) (justify mirror))
     (tstamp 7b7355bb-cc41-4101-98a1-346a58dffd2a)
   )
+  (fp_rect (start 11.55 2.5) (end -11.55 -2.5)
+    (stroke (width 0.2) (type default)) (fill none) (layer "B.SilkS") (tstamp 88c127ed-79fa-4e58-a3f0-ba2578eb02f7))
   (fp_rect (start -11.55 2.5) (end 11.55 -2.5)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 6ecb91dc-c449-4def-957a-cc1b5c82f6d8))
   (pad "1" thru_hole circle (at -10.1 0) (size 2.3 2.3) (drill 1.2) (layers "*.Cu" "*.Mask")
