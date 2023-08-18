@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 0.8,
+          "height": 1.6,
+          "width": 1.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -93,7 +93,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -174,8 +174,10 @@
       "track_widths": [
         0.0,
         0.2,
+        0.35,
         0.5,
-        1.0
+        1.0,
+        2.0
       ],
       "via_dimensions": [
         {
@@ -425,7 +427,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -485,7 +487,27 @@
   },
   "sheets": [
     [
-      "c1cb2bef-9eae-4ec7-9810-1daf2061cc41",
+      "1d91d06a-381a-4a70-bfc1-2abf4d159a91",
+      "CPU"
+    ],
+    [
+      "ed9120da-14d8-40be-9026-fb246d72bf2f",
+      "VDC"
+    ],
+    [
+      "c78d7e8a-3e65-46f4-91f4-96eb31925bea",
+      "Video"
+    ],
+    [
+      "ba362b1f-3cb7-4861-9385-2b05dca17551",
+      "Power"
+    ],
+    [
+      "99dc3156-542f-4db3-aeb5-d38a9dd48b1b",
+      "Connectors"
+    ],
+    [
+      "c1c718c6-a427-431e-a18b-e46f94ae8e09",
       ""
     ]
   ],
