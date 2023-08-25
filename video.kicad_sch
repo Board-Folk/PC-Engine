@@ -3263,8 +3263,8 @@
     (pin "1" (uuid 58a36dcc-ff91-4395-a761-c3ef5ecdc682))
     (pin "2" (uuid 1da223c9-6943-4228-8bcd-572d3851282a))
     (pin "3" (uuid 77549d90-c67a-4b8c-95f6-3b111233330c))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb83))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb83))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb84))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb84))
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
