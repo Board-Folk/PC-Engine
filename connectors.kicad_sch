@@ -4105,7 +4105,7 @@
     (property "Reference" "CN102" (at 271.78 132.08 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "EXPANSION" (at 271.78 134.62 0)
+    (property "Value" "Expansion" (at 271.78 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "A-PCENGINE:CN102-2.54mm" (at 241.3 99.06 0)
