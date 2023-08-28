@@ -16,7 +16,7 @@ which you may wish to remove if using another service.
 The design is verified to work as a 2-layer PCB.
 
 A leaded HASL finish is perfectly adequate and ensures compatibility with the
-original solder that will ineveitably be left behind on original parts.
+original solder that will ineveitably be left behind on salvaged parts.
 
 
 ## Bill of Materials
