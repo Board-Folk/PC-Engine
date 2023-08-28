@@ -1,9 +1,9 @@
 # NEC PC Engine PCB Reproductions
 
-This repository contains recreations of main board PCBs for NEC's PC Engine
-console. The recreations are based on the available schematics for the
-TurboGrafx-16 and reverse engineering using scanned images of the original
-boards' copper layers, so should be reasonably accurate reproductions.
+This repository contains a recreation of the main board PCB for NEC's PC
+Engine console. The recreation is based on the available schematics for the
+TurboGrafx-16 and reverse engineering using scanned images of an original
+board's copper layers, so should be a reasonably accurate reproduction.
 
 
 ## PCB Production
