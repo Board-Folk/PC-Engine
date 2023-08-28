@@ -172,4 +172,4 @@ The resources are provided "as-is" without warranty of any kind, either
 expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
 
-[IBOM]: [http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/pc-engine/main/bom/ibom.html]
+[IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/pc-engine/main/bom/ibom.html
