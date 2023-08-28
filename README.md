@@ -23,8 +23,7 @@ from a donor board. It is completely possible that your particular board uses
 different (but compatible) parts so it's advisable to take photos before starting.
 Below is therefore a partial bill of materials for parts whose values are not
 marked on the boards and/or look otherwise alike. For a complete BOM, consult the
-generated [Interactive BOM](https://raw.githubusercontent.com/Board-Folk/pc-engine/main/bom/ibom.html)
-or the KiCad project itself.
+generated [Interactive BOM][IBOM] or the KiCad project itself.
 
 Some parts may not be present on revisions other than the particular `PWD-623A`
 board this reproduction is based upon. There is at least one revision that is
@@ -172,3 +171,5 @@ and/or resources of this project.
 The resources are provided "as-is" without warranty of any kind, either
 expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
+
+[IBOM]: [http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/pc-engine/main/bom/ibom.html]
