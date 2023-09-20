@@ -6,8 +6,8 @@
 
   (title_block
     (title "PC Engine Video Display Controller and VRAM")
-    (date "2023-09-18")
-    (rev "1.1")
+    (date "2023-09-20")
+    (rev "1.2")
     (comment 1 "Differences reverse engineered from original PWD-623A board")
     (comment 2 "Adapted from existing TurboGrafx-16 schematics by Cosam")
   )

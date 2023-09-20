@@ -6,8 +6,8 @@
 
   (title_block
     (title "PC Engine Video Encoding")
-    (date "2023-09-18")
-    (rev "1.1")
+    (date "2023-09-20")
+    (rev "1.2")
     (comment 1 "Differences reverse engineered from original PWD-623A board")
     (comment 2 "Adapted from existing TurboGrafx-16 schematics by Cosam")
   )
@@ -3246,12 +3246,12 @@
   )
 
   (symbol (lib_id "PC-Engine:RF_Modulator") (at 328.93 129.54 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no)
     (uuid 30c2fd7d-3efb-4215-9a82-7618726a7ffc)
     (property "Reference" "CN103" (at 328.93 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "RF Modulator" (at 328.93 129.54 0)
+    (property "Value" "RF Modulator" (at 328.93 133.35 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "A-PCENGINE:CN103" (at 328.93 129.54 0)
@@ -3263,8 +3263,8 @@
     (pin "1" (uuid 58a36dcc-ff91-4395-a761-c3ef5ecdc682))
     (pin "2" (uuid 1da223c9-6943-4228-8bcd-572d3851282a))
     (pin "3" (uuid 77549d90-c67a-4b8c-95f6-3b111233330c))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb86))
-    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb86))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb8a))
+    (pin "4" (uuid c88c6d43-65a4-4351-822a-172f37ebeb8a))
     (instances
       (project "PCE"
         (path "/c1c718c6-a427-431e-a18b-e46f94ae8e09/c78d7e8a-3e65-46f4-91f4-96eb31925bea"
