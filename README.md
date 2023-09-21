@@ -5,18 +5,34 @@ Engine console. The recreation is based on the available schematics for the
 TurboGrafx-16 and reverse engineering using scanned images of an original
 board's copper layers, so should be a reasonably accurate reproduction.
 
+**NOTE**: In order to use these PCBs sucessfully you will need to be proficient in:
+
+* Soldering-fine pitched surface mount components.
+* In most cases, desoldering said components to obtain these from a donor board.
+* Troubleshooting any issues that may arise.
+
+The authors are not obliged to provide support, nor shall they be held responsible
+for botched attempts at using these boards.
+
+Should you however find a legitimate flaw in the board's design or have suggestions
+for improvements, please feel free to submit an issue. Please note that the current
+scope of the project is to provide a working replica; we are not at this moment
+entertaining feature requests for significant modifications.
+
 
 ## PCB Production
 
 Minimum track widths, clearances and via sizes are within the standard
-offering of modern PCB fabricators. Development was done using JLCPCB and
-the boards therefore have their order number placeholder on the silkscreen,
-which you may wish to remove if using another service.
+offering of modern PCB fabricators. Gerber files are generated with the relevant
+options for both [JLCPCB](https://jlcpcb.com/) and [PCBWay](https://www.pcbway.com/)
+(where these have been uploaded to [this project][PCBWay_Project] for easy
+ordering). Placeholders for the order number are provided so remember to select
+the "Specify location" option for this when ordering. If using another service
+you may wish to remove or replace this placeholder.
 
-The design is verified to work as a 2-layer PCB.
-
-A leaded HASL finish is perfectly adequate and ensures compatibility with the
-original solder that will ineveitably be left behind on salvaged parts.
+The design is verified to work as a 2-layer PCB with 1 oz copper. A leaded HASL
+finish is perfectly adequate and ensures compatibility with the original solder
+that will ineveitably be left behind on salvaged parts.
 
 
 ## Bill of Materials
@@ -30,8 +46,13 @@ generated [Interactive BOM][IBOM] or the KiCad project itself.
 
 Some parts may not be present on revisions other than the particular `PWD-623A`
 board this reproduction is based upon. There is at least one revision that is
-missing some of the higher numbered (`R16x`) resistors. These do not appear to be
-essential but this has not yet been verified.
+missing some of the higher numbered (`R16x`) resistors although most of these
+seem to be present, only numbered differently. Some revisions also feature fewer
+inductors although it appears that in most cases a simple wire jumper is a
+reasonable substitute. Some mixing and matching or addition parts may be required
+in some cases. It is probably not feasible to list the differences between all
+possible revisions but should you work out a solution for a particular donor board,
+please let us know so we can include it in this documentation.
 
 Capacitor voltages may exceed those given, within reason. E.g. you may
 substitute 16V for a 10V part. You may well find that the original 1uF parts
@@ -176,3 +197,4 @@ expressed or implied, including, but not limited to, the implied warranties
 of merchantability and fitness for a particular purpose.
 
 [IBOM]: http://htmlpreview.github.io/?https://raw.githubusercontent.com/Board-Folk/pc-engine/main/bom/ibom.html
+[PCBWay_Project]: https://www.pcbway.com/project/shareproject/NEC_PC_Engine_reproduction_main_PCB_a4913a83.html
